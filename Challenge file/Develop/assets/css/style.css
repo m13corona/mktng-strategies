@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/*This changes the color of the webpage, of the whole body*/
+
 body {
     background-color: #d9dcd6;
 }
+
+/*This changes the header*/
 
 .header {
     padding: 20px;
@@ -20,15 +24,19 @@ body {
     font-size: 48px;
 }
 
+/*This changes the color of the 'seo' section of the word 'Horiseon'*/
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+
+/*I removed the Calibri font from the code because it seems like it is not supported*/
 
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS' sans-serif;
     font-size: 20px;
 }
 
@@ -50,7 +58,7 @@ p {
     font-size: 16px;
 }
 
-
+/*this is the styling for the background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,21 +68,27 @@ p {
     background-position: center;
 }
 
+/*this makes the pictures stay on the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*this makes the pictures stay on the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/*This gives the general style for the content part of the website*/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*This gives the general style for the benefits part of the website*/
 
 .benefits {
     margin-right: 20px;
@@ -117,6 +131,8 @@ p {
     text-align: center;
 }
 
+/*This gives the general style for the images in the benefit part of the website*/
+
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,11 +151,13 @@ p {
     max-width: 150px;
 }
 
+/*these are the buttons at the top of the page*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -148,7 +166,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -157,10 +175,12 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/*changes the size of the images in the content area*/
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -173,6 +193,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/*changes the headers in the content area*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -188,6 +210,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*This changes the font of the footer*/
 
 .footer {
     padding: 30px;
