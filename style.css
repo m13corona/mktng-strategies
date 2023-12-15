@@ -57,6 +57,7 @@ p {
 }
 
 /*this is the styling for the background image*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -67,12 +68,14 @@ p {
 }
 
 /*this makes the pictures stay on the left*/
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
 /*this makes the pictures stay on the right*/
+
 .float-right {
     float: right;
     margin-left: 25px;
@@ -223,3 +226,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
