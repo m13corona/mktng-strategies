@@ -1,4 +1,4 @@
-# mktng-strategies
+# mktng-strategy
 
 ## Horiseon Website
 
